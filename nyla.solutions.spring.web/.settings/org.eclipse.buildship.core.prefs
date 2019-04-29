@@ -1,0 +1,9 @@
+#Mon Aug 21 10:06:45 EDT 2017
+connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
+derived.resources=.gradle,build
+connection.java.home=null
+connection.arguments=
+eclipse.preferences.version=1
+connection.jvm.arguments=
+project.path=\:nyla.solutions.spring.web
+connection.project.dir=..

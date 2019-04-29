@@ -1,0 +1,13 @@
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/JdbcCursorItemTextableReader.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/SpringValidatorProcessor.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/ConfigDriverMgrDataSource.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/CsvArrayableSkipListener.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/ExcelItemReader.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/AbstractArrayableItemProcessor.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/MustSkipExpressionItemProcessor.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/XmlInterpreterSkipListener.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/CommandLineTimestampJobRunner.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/DataRowMapperSetter.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/CommandStepExecutionListener.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/DAOCommandProcessor.java
+/Projects/solutions/nyla/dev/nyla.solutions.dao.spring.batch/src/main/java/nyla/solutions/dao/spring/batch/SpringBatchErrorListener.java

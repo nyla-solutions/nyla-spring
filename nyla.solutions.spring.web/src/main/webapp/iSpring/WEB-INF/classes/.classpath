@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/mx4j-tools.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/antlr.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/commons-modeler-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/gemfire.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/gf-client-ra.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/gfSecurityImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/mx4j.jar"/>
+	<classpathentry kind="lib" path="C:/Java/Medco/GF6513/GemFire6513/lib/mx4j-remote.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/pos/antlr-3.1.1-runtime.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
