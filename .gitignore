@@ -3,6 +3,9 @@
 .classpath
 .settings/
 /.settings/
+.DS_Store
+bin/
+build/
 nyla.solutions.spring/.settings/org.eclipse.jdt.core.prefs
 
 # Ignore Gradle GUI config
