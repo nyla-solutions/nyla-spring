@@ -1,5 +1,9 @@
 .gradle
 /build/
+.classpath
+.settings/
+/.settings/
+nyla.solutions.spring/.settings/org.eclipse.jdt.core.prefs
 
 # Ignore Gradle GUI config
 gradle-app.setting
