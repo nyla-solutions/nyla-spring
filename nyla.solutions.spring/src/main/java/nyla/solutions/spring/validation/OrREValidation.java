@@ -7,7 +7,8 @@ import org.springframework.validation.Errors;
 
 import nyla.solutions.core.util.Text;
 
-public class OrREValidation extends AbstractValidation implements org.springframework.validation.Validator
+
+public class OrREValidation extends AbstractValidation 
 {
    /**
     * 

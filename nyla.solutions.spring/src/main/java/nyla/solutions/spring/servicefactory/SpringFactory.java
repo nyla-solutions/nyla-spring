@@ -226,7 +226,7 @@ public class SpringFactory extends ServiceFactory
    @SuppressWarnings("unchecked")
 public <T> T create(String aName)
    {
-      return ((T)factory.getBean(aName));
+      return (T)factory.getBean(aName);
       
    }// --------------------------------------------
    /**
@@ -237,7 +237,7 @@ public <T> T create(String aName)
     * @return an instance of the given class
     */
    @SuppressWarnings("unchecked")
-   public <T> T create(String aName,Object [] aParams )
+   public <T> T create(final String aName,Object [] aParams )
    {
       return (T)factory.getBean(aName, aParams);
       

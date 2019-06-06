@@ -14,8 +14,17 @@ import nyla.solutions.core.util.Text;
  * @author Gregory Green
  * @version 1.0
  */
-public class GenericValidation extends AbstractValidation implements org.springframework.validation.Validator
+public class GenericValidation extends AbstractValidation 
 {
+	   static final long serialVersionUID = GenericValidation.class.getName().hashCode();
+	   private String regExp = "";
+	   private String validateFlag = "v_";
+	   private boolean required = false;
+	   private Integer minLength = null;
+	   private Integer maxLength = null;
+	   
+	
+
    /**b
     * Constructor for Validation initializes internal 
     * data settings.
@@ -39,7 +48,7 @@ public class GenericValidation extends AbstractValidation implements org.springf
       //Debugger.dump(this);
       
      
-      String value = retrieveTextValue(target);
+      final String value = retrieveTextValue(target);
       Debugger.println(this,"validating value=" + value + " against=" + this.regExp);
 
       
@@ -83,9 +92,9 @@ public class GenericValidation extends AbstractValidation implements org.springf
    public void setRegExp(String re)
    {
       if (re == null)
-         re = "";
-
-      this.regExp = re;
+    	  this.regExp = "";
+      else
+    	  this.regExp = re;
    }// --------------------------------------------
    /**
     * @return Returns the maxLength.
@@ -152,9 +161,9 @@ public class GenericValidation extends AbstractValidation implements org.springf
    public void setValidateFlag(String validateFlag)
    {
       if (validateFlag == null)
-         validateFlag = "";
-
-      this.validateFlag = validateFlag;
+    	  this.validateFlag = "";
+      else
+    	  this.validateFlag = validateFlag;
    }//-------------------------------------------- 
    public String getRequiredErrorCode()
    {
@@ -202,13 +211,5 @@ public class GenericValidation extends AbstractValidation implements org.springf
       this.required = required;
    }// --------------------------------------------
 
-   private String regExp = "";
-   
-   private String validateFlag = "v_";
-   private boolean required = false;
-   private Integer minLength = null;
-   private Integer maxLength = null;
-   
-   static final long serialVersionUID = GenericValidation.class.getName().hashCode();
-
+  
 }

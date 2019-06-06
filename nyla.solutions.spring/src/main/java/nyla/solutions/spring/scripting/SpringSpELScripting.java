@@ -71,24 +71,15 @@ public class SpringSpELScripting<ReturnType,EvaluationObjectType> implements Scr
 	@SuppressWarnings({ "unchecked" })
 	public ReturnType interpret(String expression, EvaluationObjectType evaluationObject)
 	{		
-		//if(this.evaluationObject == null)
-		//	throw new RequiredException
-		//	("this.evaluationObject in SpringExecutable");
+		if(parser == null)
+			throw new IllegalStateException("Parser required");
 		
 		 try
-		{
-			
-//			Map runtimeVariables = Config.getProperties();			
-//						
-//			if(this.variables != null)
-//				runtimeVariables.putAll(this.variables);
-			
-			
-			
+		 {			
 			
 			Debugger.println(this,"Parsing expression="+expression);
 			
-			//Expression exp = parser.parseExpression(expression,new TemplatedParserContext());
+			//Unsafe if the input is control by the user..
 			Expression exp = parser.parseExpression(expression);
 
 			if(evaluationObject != null)
@@ -113,8 +104,6 @@ public class SpringSpELScripting<ReturnType,EvaluationObjectType> implements Scr
 				
 				return (ReturnType)exp.getValue();
 			}
-			//return (ReturnType)exp.getValue(context);
-			 		
 		} 
 		catch (Exception e)
 		{
@@ -154,5 +143,5 @@ public class SpringSpELScripting<ReturnType,EvaluationObjectType> implements Scr
 	}//---------------------------------------------
 
 	private Map<String,Object> variables = null;
-	private ExpressionParser parser;
+	private ExpressionParser parser=null;
 }
