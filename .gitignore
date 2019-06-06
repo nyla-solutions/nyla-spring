@@ -3,6 +3,7 @@
 .classpath
 .settings/
 /.settings/
+gradle.properties
 .DS_Store
 bin/
 build/
