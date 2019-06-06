@@ -64,10 +64,10 @@ uploadArchives {
 	        name 'Nyla Spring'
 	        packaging 'jar'
 	        description 'Spring utility features.'
-	        url 'https://github.com/nyla-solutions/nyla/tree/master/nyla.solutions.spring'
+	        url 'https://github.com/nyla-solutions/nyla-spring'
 	        
 	        scm {
-	            url 'https://github.com/nyla-solutions/nyla.git'
+	            url 'https://github.com/nyla-solutions/nyla-spring.git'
 	          }
 	        
 	        
